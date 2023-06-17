@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #2090d1;
+    min-height: 100vh;
+    border: 10px solid #d2852c;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(29, 1, 1);
+}
+.top_section h4{
+    font-size: 20px;
+    text-align: end;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container,
+img{
+    width: 300px;
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section h5{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.literary_works_section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.literary_works_section h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.literary_works_section li{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    font-size: 20px;
+    text-align: end;
+}
